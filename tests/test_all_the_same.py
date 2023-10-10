@@ -1,4 +1,4 @@
-from all_the_same import *
+from poetry_project.all_the_same import *
 
 def test_all_the_same():
     assert all_the_same_compute([1, 1, 1]) == True
