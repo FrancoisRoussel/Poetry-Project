@@ -33,5 +33,6 @@ jobs:
       - name: Run tests
         run: |
           source .venv/bin/activate
+          pip install pytest
           poetry run pytest tests/
           coverage report
