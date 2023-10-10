@@ -35,4 +35,3 @@ jobs:
           source .venv/bin/activate
           pip install pytest
           poetry run pytest tests/
-          coverage report
