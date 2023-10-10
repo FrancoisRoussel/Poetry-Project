@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poetry-project"
+version = "0.1.0"
+description = ""
+authors = ["François Roussel <francois.roussel2.etu@univ-lille.fr>"]
+readme = "README.md"
+packages = [{include = "poetry_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
