@@ -59,6 +59,6 @@ jobs:
           github_token: ${{ secrets.github_token }}
           branch: ${{ github.ref }}
       - name: Update GitHub Profile README
-        uses: theboi/github-update-readme@v1.0
+        uses: theboi/github-update-readme@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
