@@ -86,4 +86,4 @@ jobs:
       - name: Install project
         run: poetry install --no-interaction
       - name: Install and use of Pylint
-        run: poetry run pylint
+        run: poetry run pylint tests/
