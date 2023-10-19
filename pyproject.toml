@@ -10,6 +10,7 @@ packages = [{include = "poetry_project"}]
 python = "^3.11"
 pytest = "^7.3.2"
 coverage = "^7.3.2"
+pylint = "^3.0.1"
 
 [build-system]
 requires = ["poetry-core"]
