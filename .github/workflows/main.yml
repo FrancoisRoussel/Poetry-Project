@@ -60,6 +60,6 @@ jobs:
           branch: ${{ github.ref }}
   pylint:
     runs-on: ubuntu-latest
-      steps:
-        - name: Install and use of Pylint
-          run: poetry run pylint
+    steps:
+      - name: Install and use of Pylint
+        run: poetry run pylint
