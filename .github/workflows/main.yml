@@ -32,10 +32,8 @@ jobs:
         run: poetry install --no-interaction
       - name: Install and run coverage
         run: | 
-          python3 -m pip install coverage
           coverage report
       - name: Run tests
         run: |
           source .venv/bin/activate
-          pip install pytest
           poetry run pytest tests/
