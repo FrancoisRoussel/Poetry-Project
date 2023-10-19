@@ -62,4 +62,4 @@ jobs:
     runs-on: ubuntu-latest
       steps:
         - name: Install and use of Pylint
-          uses: poetry run pylint
+          run: poetry run pylint
