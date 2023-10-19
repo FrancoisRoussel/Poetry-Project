@@ -1,4 +1,4 @@
-#Welcome to my Poetry Project,
+# Welcome to my Poetry Project! :sunglasses:
 
 Here is covering badge over my functions:
 
