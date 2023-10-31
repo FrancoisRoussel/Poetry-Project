@@ -9,4 +9,4 @@ def rectangle_perimeter_compute(length: int, width: int) -> int:
     """
     if isinstance(length,int) and isinstance(width,int):
         return 2*length + 2*width
-    raise ValueError("Length and width must be positive integers")
+    raise ValueError("Length&width must be positive integers")
