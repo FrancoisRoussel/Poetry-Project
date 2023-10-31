@@ -1,9 +1,9 @@
-name: test
+name: Pytest, Coverage and Pylint
 
 on: push
 
 jobs:
-  test:
+  pytest:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
