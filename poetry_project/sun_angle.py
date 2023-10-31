@@ -9,10 +9,9 @@ def sun_angle_compute(time):
     I don't see the sun otherwise.
     """
 
-    if not isinstance(time,str):
-        raise TypeError("Please put a string as an input")
-
-    angle = (int(time[:2])-6)*15 + int(time[3:])*0.25
-    if 0 <= angle <= 180:
-        return angle
-    return "I don't see the sun!"
+    if isinstance(time,str):
+        angle = (int(time[:2])-6)*15 + int(time[3:])*0.25
+        if 0 <= angle <= 180:
+            return angle
+        return "I don't see the sun!"
+    raise TypeError("Please put a string as an input")
