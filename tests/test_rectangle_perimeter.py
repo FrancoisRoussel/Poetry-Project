@@ -1,6 +1,7 @@
 """test_rectangle_perimeter function"""
 
 from poetry_project.rectangle_perimeter import rectangle_perimeter_compute
+import pytest
 
 def test_rectangle_perimeter():
     """Define the function to test rectangle_perimeter function"""
