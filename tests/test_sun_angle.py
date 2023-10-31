@@ -1,7 +1,7 @@
 """test_sun_angle python file"""
 
-from poetry_project.sun_angle import sun_angle_compute
 import pytest
+from poetry_project.sun_angle import sun_angle_compute
 
 def test_sun_angle():
     """Define the function to test the sun angle function"""
