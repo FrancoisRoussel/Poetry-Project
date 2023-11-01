@@ -7,7 +7,7 @@ readme = "README.md"
 packages = [{include = "poetry_project"}]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10.11"
 pytest = "^7.3.2"
 coverage = "^7.3.2"
 pylint = "^3.0.1"
